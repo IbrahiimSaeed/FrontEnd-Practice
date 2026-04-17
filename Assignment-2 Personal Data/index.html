@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <style>.info input { width: 220px; }</style>
+    </head>
+
+    <body style="background-color: tan;">
+        <form action="" >
+            <fieldset style="background-color: rgb(93, 185, 192);">
+                <legend style="background-color: rgb(232, 204, 152);">Personal Information</legend>
+                <br>
+                <fieldset style="background-color: tan;">
+                    <br>
+                    <legend style="background-color: rgb(100, 235, 204);"> <br>Your Name <br><br></legend>
+                    <table class="info">
+                        <tbody>
+                        <tr>
+                            <td><label for="first_name">First Name:</label></td>
+                            <td><input type="text" id="first_name" name="first_name" placeholder="First Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="last_name">Last Name:</label></td>
+                            <td><input type="text" id="last_name" name="last_name" placeholder="Last Name"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+
+                <br> <br>
+                <table class="info">
+                    <tbody>
+                    <tr>
+                        <td><label for="phone">Phone Number:</label></td>
+                        <td><input type="tel" id="phone" name="phone" placeholder="Phone Number"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" id="password" name="password" placeholder="Password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="confirm_password">Confirm Password:</label></td>
+                        <td><input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password"></td>
+                    </tbody>
+                </table>
+                <br>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td><label for="gender">Gender:</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td><label for="status">Status:</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="student" name="status" value="student">
+                            <label for="student">Student</label>
+                            <input type="radio" id="graduate" name="status" value="graduate">
+                            <label for="graduate">Graduate</label>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="egypt">Egypt</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                    <option value="australia">Australia</option>
+                </select>
+                <br> <br>
+
+                <button type="submit" style="background-color: chartreuse; border-radius: 10px; width: 100px;">Submit</button>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
