@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.Home{
+    background-image: url(../img/background.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.home-caption{
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+
+.home-caption h1{
+    font-size: 50px;
+    font-family: 'Algerian', cursive;
+    font-weight: 400;
+}
+
+.home-caption p{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.btn-brown{
+    background-color: #8B4513;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-white{
+    background-color: white;
+    color: #8B4513;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-img{
+    width: 40%;
+    float: left;
+}
+.about-img img{
+    width: 100%;
+}
+.about-caption{
+    width: 60%;
+    float: left;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.about-caption span{
+    font-size: 20px;
+    color: #8B4513;
+    font-family: 'Algerian', cursive;
+    font-weight: 400;
+}
+
+.about-caption h1{
+    font-size: 30px;
+    font-family: 'Algerian', cursive;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.about-caption p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 20px;
+    line-height: 30px;
+}
+
+.btn-about{
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #8B4513;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
