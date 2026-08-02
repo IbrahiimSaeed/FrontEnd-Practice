@@ -1,0 +1,301 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr
+{
+    clear: both;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container
+{
+    width: 90%;
+    margin: auto;
+}
+.home
+{
+    background-image: url(../img/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+
+}
+.home-caption
+{
+    text-align: center;
+    color: white;
+    margin-top: 140px;
+}
+
+.nav-logo
+{
+    width: 15%;
+    float: left;
+    margin-top: 10px;
+}
+.nav-logo img
+{
+    width: 100%;
+}
+.nav-links ul
+{
+    float: right;
+    margin-top: 10px;
+}
+.nav-links ul li
+{
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+}
+.nav-links ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.home-caption p
+{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.home-caption h1
+{
+    font-size: 60px;
+    margin: 50px 0;
+}
+
+.home-caption .btn
+{
+    padding: 15px 30px;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.home-caption .btn-brown
+{
+    background-color: #8B4513;
+    border-radius: 5px;
+}
+
+.home-caption .btn-white
+{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 2px solid white;
+}
+.scroll
+{
+    width: 35px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 40px auto;
+    animation: scroll 1s linear infinite;
+}
+
+/* About Section */
+.about
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.about-img
+{
+    width: 40%;
+    float: left;
+}
+.about-img img
+{
+    width: 100%;
+}
+.about-cap
+{
+    width: 50%;
+    float: right;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #686868;
+}
+.about-cap h2
+{
+    color: black;
+}
+.about-cap p
+{
+    margin: 20px 0;
+}
+.about-list
+{
+    text-align: left;
+}
+.about-list ul li
+{
+    padding: 15px;
+    list-style-type: none;
+}
+.about-list li::before {
+    content: "";     
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-size: cover;
+    vertical-align: middle;
+}
+.im1::before
+{
+    background-image: url(../img/Icons/check.png);
+}
+.im2::before
+{
+    background-image: url(../img/Icons/people.png);
+}
+.im3::before
+{
+    background-image: url(../img/Icons/heart.png);
+}
+.im4::before
+{
+    background-image: url(../img/Icons/leaf.png);
+}
+
+
+/* Our Offer Section */
+.offer
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.offer-cap
+{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 50px 30px;
+}
+
+.offer-img
+{
+    width: 40%;
+    float: right;
+}
+.offer-img img
+{
+    width: 100%;
+}
+.offer-cap p
+{
+    margin-top: 20px;
+    color: #686868;
+}
+
+/* Gallery Section */
+.gallery
+{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.gallery p
+{
+    margin-top: 20px;
+    color: #686868;
+}
+.meal
+{
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.meal img
+{
+    width: 100%;
+}
+.inner{
+    padding: 30px;
+}
+.meals h5, .meals p
+{
+    margin: 20px 0;
+}
+
+/* Location Section */
+
+.location{
+    width: 90%;
+    margin: auto;
+    margin-top: 600px;
+}
+.location-cap
+{
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #686868;
+}
+.location-cap h2
+{
+    color: black;
+}
+.location-cap p
+{
+    margin: 20px 0;
+    text-align: left;
+    margin-left: 40px;
+}
+.location-map
+{
+    width: 40%;
+    float: right;
+    margin: 50px 50px;
+}
+.location-list
+{
+    text-align: left;
+}
+.location-list ul li
+{
+    padding: 15px;
+    list-style-type: none;
+}
+.location-list li::before {
+    content: "";     
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-size: cover;
+    vertical-align: middle;
+}
+.img1::before
+{
+    background-image: url(../img/Icons/location.png);
+}
+.img2::before
+{
+    background-image: url(../img/Icons/email-solid.png);
+}
+.img3::before
+{
+    background-image: url(../img/Icons/phone-gray.png);
+}
+.img4::before
+{
+    background-image: url(../img/Icons/arrow.png);
+}
